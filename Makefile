@@ -23,4 +23,4 @@ superuser:
 	poetry run python -m core.manage createsuperuser
 
 .PHONY: update
-update: install migrate install-pre-commit ;
+update: install migrate ;
